@@ -22,15 +22,27 @@ const ClientDataForm = () => {
           id="name"
           value={clientName}
           onChange={handleNameChange}
+feat/HU-2
+          placeholder="Nombre completo"
+        />
+      </div>
+      <div>
+        <label htmlFor="contact">Contacto:</label>
+=======
         />
       </div>
       <div>
         <label htmlFor="contact">Contacto (Teléfono/Email):</label>
+develop 
         <input
           type="text"
           id="contact"
           value={clientContact}
           onChange={handleContactChange}
+feat/HU-2
+          placeholder="Teléfono o Email"
+=======
+ develop
         />
       </div>
     </div>
