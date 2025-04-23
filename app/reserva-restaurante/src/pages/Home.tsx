@@ -1,24 +1,20 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
-import './Home.css';
+import React from 'react';
+import DateTimeSelector from '../components/DateTimeSelector';
+import ClientDataForm from '../components/ClientDataForm';
 
-const Home: React.FC = () => {
+const Home = () => {
   return (
-    <IonPage>
-      <IonHeader>
-        <IonToolbar>
-          <IonTitle>Blank</IonTitle>
-        </IonToolbar>
-      </IonHeader>
-      <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Blank</IonTitle>
-          </IonToolbar>
-        </IonHeader>
-        <ExploreContainer />
-      </IonContent>
-    </IonPage>
+    <div style={{ padding: '20px' }}>
+      <h1>Gestión de Reservas</h1>
+
+      <section style={{ marginBottom: '20px' }}>
+        <DateTimeSelector />
+      </section>
+
+      <section>
+        <ClientDataForm />
+      </section>
+    </div>
   );
 };
 
