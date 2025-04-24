@@ -21,7 +21,10 @@
     "@ionic/react-router": "^8.5.0",
     "@types/react-router": "^5.1.20",
     "@types/react-router-dom": "^5.3.3",
+<<<<<<< HEAD
     "axios": "^1.8.4",
+=======
+>>>>>>> b72c3d0ea61470a2bbd991f570c781bde03bd195
     "ionicons": "^7.4.0",
     "react": "19.0.0",
     "react-dom": "19.0.0",
@@ -48,7 +51,11 @@
     "terser": "^5.4.0",
     "typescript": "^5.1.6",
     "typescript-eslint": "^8.24.0",
+<<<<<<< HEAD
     "vite": "5.2.14",
+=======
+    "vite": "~5.2.0",
+>>>>>>> b72c3d0ea61470a2bbd991f570c781bde03bd195
     "vitest": "^0.34.6"
   },
   "description": "An Ionic project"

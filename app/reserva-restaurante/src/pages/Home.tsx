@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from 'react';
 import { createReservation } from '../services/reservationservice'; // Asegúrate de tener este servicio
 import DateTimeSelector from '../components/DateTimeSelector';
@@ -105,9 +106,30 @@ const Home = () => {
       >
         {loading ? 'Confirmando Reserva...' : 'Confirmar Reserva'}
       </button>
+=======
+import React from 'react';
+import DateTimeSelector from '../components/DateTimeSelector';
+import ClientDataForm from '../components/ClientDataForm';
+
+const Home = () => {
+  return (
+    <div style={{ padding: '20px' }}>
+      <h1>Gestión de Reservas</h1>
+
+      <section style={{ marginBottom: '20px' }}>
+        <DateTimeSelector />
+      </section>
+
+      <section>
+        <ClientDataForm />
+      </section>
+>>>>>>> b72c3d0ea61470a2bbd991f570c781bde03bd195
     </div>
   );
 };
 
 export default Home;
+<<<<<<< HEAD
 
+=======
+>>>>>>> b72c3d0ea61470a2bbd991f570c781bde03bd195
