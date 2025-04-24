@@ -1,7 +1,0 @@
-{
-  "name": "reserva-restaurante",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "react-vite"
-}
